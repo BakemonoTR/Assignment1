@@ -17,5 +17,5 @@ The main theme of this website is **Book Blog**.
 
 During the development of this assignment, the main technical challenge encountered was:
 
-1.  **Sticky Footer Alignment:** I faced a significant issue with **pinning the footer to the bottom** of the viewport on pages with little content. It was difficult to ensure the footer stayed at the very bottom regardless of the page height. I researched CSS Flexbox and `min-height` techniques to attempt to resolve this.
-2.  But It is not solved.
+1.  **Sticky Footer Alignment:** I faced a significant issue with **pinning the footer to the bottom** of the viewport on pages with little content. It was difficult to ensure the footer stayed at the very bottom regardless of the page height. I researched CSS Flexbox and `min-height` techniques to attempt to resolve this.But it is not solved.
+
