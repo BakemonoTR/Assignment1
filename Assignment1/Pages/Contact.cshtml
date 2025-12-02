@@ -2,7 +2,8 @@
 @model Assignment1.Pages.ContactModel
 @{
 }
-<form>
+<form method="post"> 
+	<fieldset>
 	<legend>Contact Us!</legend>
 	<label for="Name_Surname">Name and Surname:</label>
 	<input type="text" id="Name_Surname" name="Name_Surname" placeholder="Enver Can Biçkin" required />
@@ -10,8 +11,20 @@
 	<input type="email" id="email" name="email" placeholder="mail@example.com" required />
 
 
-
-
-
+	<label for="title">Message Title:</label>
+            <select id="title" name="title">
+                <option value="General">General Questions</option>
+                <option value="About Services">Questions About Services</option>
+                <option value=Service Application">Buy a Service</option>
+                <option value="Other">Other</option>
+            </select>
+			
+			<div style="margin-top:10px; margin-bottom:10px"><label for="message">Your Message</label></div>
+	<div>
+		
+            <textarea id="message" name="message" rows="6" placeholder="Write Your Message" style="resize:none; width:300px"></textarea>
+	</div>
+	<button type="submit">Submit</button>
+	</fieldset>
 
 </form>
